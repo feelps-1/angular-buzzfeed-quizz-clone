@@ -1,55 +1,91 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual personagem de Invencível você seria?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual qualidade você mais valoriza?",
+      "options": [
+        { "id": 1, "name": "Determinação", "alias": "Invencivel" },
+        { "id": 2, "name": "Inteligência estratégica", "alias": "Cecil" },
+        { "id": 3, "name": "Empatia", "alias": "Debbie" },
+        { "id": 4, "name": "Poder absoluto", "alias": "Omni-Man" },
+        { "id": 5, "name": "Criatividade explosiva", "alias": "Rex Splode" },
+        { "id": 6, "name": "Independência", "alias": "Eve Atomica" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "O que você faria diante de uma ameaça mundial?",
+      "options": [
+        { "id": 1, "name": "Lutaria de frente sem hesitar", "alias": "Invencivel" },
+        { "id": 2, "name": "Planejaria cada movimento com precisão", "alias": "Cecil" },
+        { "id": 3, "name": "Protegiria quem ama", "alias": "Debbie" },
+        { "id": 4, "name": "Eliminaria a ameaça sem piedade", "alias": "Omni-Man" },
+        { "id": 5, "name": "Faria um ataque surpresa explosivo", "alias": "Rex Splode" },
+        { "id": 6, "name": "Usaria meus poderes para criar soluções", "alias": "Eve Atomica" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você lida com erros do passado?",
+      "options": [
+        { "id": 1, "name": "Aprendo e sigo em frente", "alias": "Invencivel" },
+        { "id": 2, "name": "Faço o necessário, sem arrependimentos", "alias": "Cecil" },
+        { "id": 3, "name": "Carrego comigo, mas tento ser melhor", "alias": "Debbie" },
+        { "id": 4, "name": "Não me deixo abalar", "alias": "Omni-Man" },
+        { "id": 5, "name": "Tento compensar com atitudes ousadas", "alias": "Rex Splode" },
+        { "id": 6, "name": "Uso minha liberdade para recomeçar", "alias": "Eve Atomica" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Qual destes lugares você prefere?",
+      "options": [
+        { "id": 1, "name": "O campo de batalha", "alias": "Invencivel" },
+        { "id": 2, "name": "Um laboratório secreto", "alias": "Cecil" },
+        { "id": 3, "name": "Em casa com família", "alias": "Debbie" },
+        { "id": 4, "name": "Um planeta desconhecido", "alias": "Omni-Man" },
+        { "id": 5, "name": "Entre amigos em uma festa", "alias": "Rex Splode" },
+        { "id": 6, "name": "Sozinho, explorando possibilidades", "alias": "Eve Atomica" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "O que te motiva?",
+      "options": [
+        { "id": 1, "name": "Proteger quem precisa", "alias": "Invencivel" },
+        { "id": 2, "name": "Manter a ordem", "alias": "Cecil" },
+        { "id": 3, "name": "Cuidar da minha família", "alias": "Debbie" },
+        { "id": 4, "name": "Seguir minha missão", "alias": "Omni-Man" },
+        { "id": 5, "name": "Superar meus limites", "alias": "Rex Splode" },
+        { "id": 6, "name": "Construir um mundo melhor", "alias": "Eve Atomica" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "Invencivel": {
+      "description": "Você é como Invencível! Corajoso, com um forte senso de justiça e sempre pronto para se levantar após uma queda.",
+      "image": "assets/imgs/invencivel.webp"
+    },
+    "Cecil": {
+      "description": "Você é como Cecil! Estrategista nato, faz o que for preciso para manter o equilíbrio, mesmo que tenha que tomar decisões difíceis.",
+      "image": "assets/imgs/cecil.webp"
+    },
+    "Debbie": {
+      "description": "Você é como Debbie! Forte, resiliente e sempre cuidando das pessoas à sua volta, mesmo diante do caos.",
+      "image": "assets/imgs/debbie.webp"
+    },
+    "Omni-Man": {
+      "description": "Você é como Omni-Man! Determinado e poderoso, mas com um lado misterioso e difícil de decifrar.",
+      "image": "assets/imgs/omniman.webp"
+    },
+    "Rex Splode": {
+      "description": "Você é como Rex Splode! Explosivo, divertido e ousado, mas sempre buscando seu lugar no mundo.",
+      "image": "assets/imgs/rexsplode.webp"
+    },
+    "Eve Atomica": {
+      "description": "Você é como Eve Atômica! Independente, inteligente e sempre tentando usar suas habilidades para transformar o mundo ao seu redor.",
+      "image": "assets/imgs/eveatomica.jpg"
+    }
   }
 }
