@@ -1,27 +1,53 @@
-# ProjetoBuzzfeed
+# Invincible Quiz - Clone do BuzzFeed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto desenvolvido em **Angular** que recria um quiz no estilo do BuzzFeed, baseado na série **Invencível**.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 17
+- TypeScript
+- HTML e SCSS
 
-## Code scaffolding
+## 📌 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Quiz interativo com perguntas sobre **Invencível**
+- Sistema de pontuação baseado nas respostas
+- Resultado personalizado no final do quiz
+- Interface moderna e responsiva
 
-## Build
+## 🎮 Como Rodar o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/invincible-quiz.git
+   cd invincible-quiz
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Execute o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+4. Acesse **http://localhost:4200** no navegador.
 
-## Running unit tests
+## 🤝 Contribuição
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sinta-se à vontade para contribuir com este projeto! Basta seguir estes passos:
 
-## Running end-to-end tests
+1. Faça um **fork** do repositório.
+2. Crie uma **branch** com a sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça o commit das suas alterações:
+   ```bash
+   git commit -m "Adiciona nova feature X"
+   ```
+4. Faça o push para a branch:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um **Pull Request** 🚀
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
